@@ -18,7 +18,7 @@ class LineStatus extends Component {
       >
         <div className='d-flex justify-content-between p-0'>
           <p className='lead p-2 m-0'>{this.props.line.name}</p>
-          <div className='p-2'>{icon(this.props.line)}</div>
+          <div className='p-2 m-0'>{icon(this.props.line)}</div>
         </div>
         <ul className='list-group'>
           {statuses}

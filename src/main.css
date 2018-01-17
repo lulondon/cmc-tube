@@ -25,12 +25,17 @@ html {
 
 .tube-service-information {
   background-color: #F1F1F1;
-  display: block !important;
+
 }
 
 .tube-status-icon {
   line-height: 2rem;
   vertical-align: middle;
+}
+
+.tfl-attribution-footer {
+  background-color: #F1F1F1;
+  font-size: 0.8rem;
 }
 
 /* Spinner */

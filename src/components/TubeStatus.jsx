@@ -54,7 +54,7 @@ export default class TubeStatus extends Component {
             <div className='jumbotron jumbotron-fluid'>
               <div className='container'>
                 <h1 className='display-4'>Tube Status</h1>
-                <p className='lead'>Explanation of what this page does, and how it can be useful to an audience.</p>
+                <p className='lead'>For more information about the London Underground and other TfL services, please visit <a href='https://tfl.gov.uk/'>tfl.gov.uk</a>.</p>
               </div>
             </div>
           </div>
@@ -64,7 +64,10 @@ export default class TubeStatus extends Component {
             {
               this.state.loading
                 ? <div className='spinner'><div className="bounce1"></div><div className="bounce2"></div><div className="bounce3"></div></div>
-                : <div className='list-group'>{lines}</div>
+                : <div className='list-group'>
+                    {lines}
+                    <div className='list-group-item tfl-attribution-footer px-4'>Powered by TfL Open Data</div>
+                  </div>
             }
           </div>
         </div>
