@@ -38,6 +38,10 @@ html {
   font-size: 0.8rem;
 }
 
+.line-status-text {
+  color: #333;
+}
+
 /* Spinner */
 
 .spinner {

@@ -54,7 +54,7 @@ export default class TubeStatus extends Component {
             <div className='jumbotron jumbotron-fluid'>
               <div className='container'>
                 <h1 className='display-4'>Tube Status</h1>
-                <p className='lead'>For more information about the London Underground and other TfL services, please visit <a href='https://tfl.gov.uk/'>tfl.gov.uk</a>.</p>
+                <p className='m-0'>For more information about the London Underground and other TfL services, please visit <a href='https://tfl.gov.uk/'>tfl.gov.uk</a>.</p>
               </div>
             </div>
           </div>

@@ -29,9 +29,9 @@ class LineStatusText extends Component {
     return (
       this.props.status.statusSeverity === 10
         ? null
-        : <li className='list-group-item'>
-            <p>{statuses[this.props.status.statusSeverity]}</p>
-            <p className='text-muted'>{this.props.status.reason}</p>
+        : <li className='list-group-item line-status-text'>
+            <p className='mt-1'>{statuses[this.props.status.statusSeverity]}</p>
+            <p className='text-muted m-0'>{this.props.status.reason}</p>
           </li>
     )
   }
