@@ -25,7 +25,6 @@ html {
 
 .tube-service-information {
   background-color: #F1F1F1;
-
 }
 
 .tube-status-icon {
@@ -40,6 +39,10 @@ html {
 
 .line-status-text {
   color: #333;
+}
+
+.jumbotron {
+  border-radius: 0.25rem;
 }
 
 /* Spinner */
