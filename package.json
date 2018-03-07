@@ -1,10 +1,10 @@
 {
-  "name": "cmc-bus",
+  "name": "cmc-tube",
   "version": "1.0.0",
-  "description": "Bus info screen (demo)",
+  "description": "London underground info screen (demo)",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --config config/webpack.prod.config.js",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config config/webpack.prod.config.js",
     "lint": "./node_modules/.bin/eslint --ext '.js','.jsx' src/",
     "precommit": "yarn test",
     "start": "./node_modules/.bin/webpack-dev-server --open --config config/webpack.dev.config.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lulondon/cmc-bus.git"
+    "url": "git+https://github.com/lulondon/cmc-tube.git"
   },
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/lulondon/cmc-bus/issues"
+    "url": "https://github.com/lulondon/cmc-tube/issues"
   },
-  "homepage": "https://github.com/lulondon/cmc-bus#readme",
+  "homepage": "https://github.com/lulondon/cmc-tube#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
