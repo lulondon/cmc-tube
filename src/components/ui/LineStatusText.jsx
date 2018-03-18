@@ -26,12 +26,14 @@ class LineStatusText extends Component {
       'Service Closed'
     ]
 
+    const { status } = this.props
+
     return (
-      this.props.status.statusSeverity === 10
+      status.statusSeverity === 10
         ? null
         : <li className='list-group-item line-status-text'>
-            <p className='mt-1'>{statuses[this.props.status.statusSeverity]}</p>
-            <p className='text-muted m-0'>{this.props.status.reason}</p>
+            <p className='mt-1'>{statuses[status.statusSeverity]}</p>
+            <p className='text-muted m-0'>{status.reason}</p>
           </li>
     )
   }

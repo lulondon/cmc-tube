@@ -1,7 +1,7 @@
 {
   "name": "cmc-tube",
-  "version": "1.0.0",
-  "description": "London underground info screen (demo)",
+  "version": "2.0.0",
+  "description": "London Underground info screen",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production ./node_modules/.bin/webpack --config config/webpack.prod.config.js",
@@ -34,7 +34,7 @@
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.5.1",
@@ -42,6 +42,7 @@
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "husky": "^0.14.3",
+    "lodash": "^4.17.5",
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "url-loader": "^0.6.2",

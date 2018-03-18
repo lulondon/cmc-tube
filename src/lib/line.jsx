@@ -10,6 +10,7 @@ export const colours = {
   metropolitan: 'rgb(155,0,88)',
   northern: 'rgb(0,0,0)',
   piccadilly: 'rgb(0,25,168)',
+  tram: 'rgb(0,189,25)',
   victoria: 'rgb(0,152,216)',
   'waterloo-city': 'rgb(147,206,186)',
   dlr: 'rgb(0,175,173)',

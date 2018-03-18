@@ -1,17 +1,22 @@
 # cmc-tube
-*cmc-tube* is a single-page application for displaying live Tube status information, directly from TfL's API. It is designed specifically for Loughborough University London, and has some hardcoded elements that reflect this.
+*cmc-tube* is a single-page application for displaying live Tube status information, directly from TfL's API.
 
 ## Usage
 ### Configuration
-Access to TfL's API requires registration of the app, and use of an API key. This can be done through the [TfL API website](https://api.tfl.gov.uk/).
 
-Once obtained, the keys should be added to the *.env* file in the project root.
+*cmc-tube*'s configuration options are stored in *config/config.json*.
 
-*.env*:
+#### Example *config.json*
+```JSON
+{
+  "TflAppId": "xxxxxxxx",
+  "TflApiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}
 ```
-TFL_API_APP_ID=<your TfL app ID here>
-TFL_API_APP_KEY=<your TfL API key here>
-```
+
+
+##### TflAppId, TflApiKey
+Access to TfL's API requires registration of the app, and use of an API key. This can be done through the [TfL API website](https://api.tfl.gov.uk/). These should then be entered into *config.json* as above.
 
 ### Build
 First install dependencies:

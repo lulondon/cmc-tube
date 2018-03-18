@@ -6,6 +6,6 @@ import 'font-awesome/css/font-awesome.min.css'
 
 import './main.css'
 
-import TubeStatus from './components/TubeStatus'
+import Tube from './components/containers/Tube'
 
-render(<TubeStatus />, document.getElementById('root'))
+render(<Tube />, document.getElementById('root'))
