@@ -16,6 +16,8 @@ class ContainerTube extends Component {
   }
 
   loadData() {
+    this.setState({ loading: true })
+
     let component = this // eslint-disable-line prefer-const
     axios.get(`https://api.tfl.gov.uk/line/mode/${modes.join(',')}/status`, {
       params: {
@@ -30,7 +32,10 @@ class ContainerTube extends Component {
         })
       })
       .catch(() => {
-        this.setState({ error: true })
+        this.setState({
+          error: true,
+          loading: false
+        })
       })
   }
 
