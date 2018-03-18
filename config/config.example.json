@@ -1,4 +1,13 @@
 {
-  "TflAppId": "xxxxxxxx",
-  "TflApiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  "api": {
+    "appId": "xxxxxxxx",
+    "key": "xxxxxxxx"
+  },
+  "modes": [
+    "tube",
+    "overground",
+    "dlr",
+    "tflrail",
+    "tram"
+  ]
 }

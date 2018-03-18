@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import Tube from '../ui/Tube'
 
-import { TflAppId, TflApiKey } from '../../../config/config.json'
+import { api, modes } from '../../../config/config.json'
 
 class ContainerTube extends Component {
   constructor(props) {
@@ -17,10 +17,10 @@ class ContainerTube extends Component {
 
   loadData() {
     let component = this // eslint-disable-line prefer-const
-    axios.get('https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrail,tram/status', {
+    axios.get(`https://api.tfl.gov.uk/line/mode/${modes.join(',')}/status`, {
       params: {
-        app_id: TflAppId,
-        app_key: TflApiKey
+        app_id: api.appId,
+        app_key: api.key
       }
     })
       .then((response) => {
