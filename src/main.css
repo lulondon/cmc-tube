@@ -85,15 +85,3 @@ html {
     transform: scale(1.0);
   }
 }
-
-/* Responsiveness tweaks */
-
-@media (max-width: 991px) {
-  body {
-    background-color: #B70062;
-  }
-
-  .spinner > div {
-    background-color: #FFF;
-  }
-}
