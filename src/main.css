@@ -27,8 +27,8 @@ html {
   vertical-align: middle;
 }
 
-.tfl-attribution-footer {
-  background-color: #F1F1F1;
+.attribution {
+  color: #333;
   font-size: 0.8rem;
 }
 

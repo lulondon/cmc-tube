@@ -18,7 +18,7 @@ class Tube extends Component {
         }
         <div className='list-group'>
           {data.map(line => <LineStatus key={line.id} line={line} />)}
-          <div className='list-group-item tfl-attribution-footer px-4'>Powered by TfL Open Data</div>
+          <div className='list-group-item attribution px-3'>Powered by TfL Open Data</div>
         </div>
       </div>
     )
